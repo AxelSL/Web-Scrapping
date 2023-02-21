@@ -1,0 +1,71 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<h1>Posiciones Premier League</h1>
+<h2>Listado:</h2>
+    <ul>
+        <li>
+            <a href="{{ url_for('equipos_equipo1')}}">Primera Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo2')}}">Segunda Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo3')}}">Tercera Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo4')}}">Cuarta Posición</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo5')}}">Quinta Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo6')}}">Sexta Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo7')}}">Septima Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo8')}}">Octava Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo9')}}">Novena Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo10')}}">Decima Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo11')}}">Undecima Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo12')}}">Duodecima Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo13')}}">Decimotercera Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo14')}}">Decimocuarta Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo15')}}">Decimoquinta Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo16')}}">Decimosexta Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo17')}}">Decimoseptima Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo18')}}">Decimoctava Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo19')}}">Decimonovena Posicion</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos_equipo20')}}">Vigesima Posicion</a>
+        </li>
+    </ul>
+    <img src="{{ url_for('static', filename='imagenes/equipos.jpg')}}" alt="" width="1200" height="900">
+
+{% endblock %}

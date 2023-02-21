@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Premier League</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/bootstrap.css') }}"  />
+</head>
+<body>
+    <div style="background-image: url({{ url_for('static', filename='imagenes/fondo.jpg')}});">
+    <div class="container">
+    <ul class="nav nav-tabs">
+        <li>
+            <a href="{{ url_for('Inicio')}}">Inicio</a>
+        </li>
+        <li>
+            <a href="{{ url_for('equipos')}}">Tabla De Posiciones</a>
+        </li>
+    </ul> 
+    {% block content %} {% endblock %}
+    </div>
+
+</body>
+</div>
+</html>
